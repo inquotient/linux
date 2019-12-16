@@ -1,0 +1,4 @@
+/var/log/sulog
+- sudo, su 명령어 사용로그 기록
+※ 해당 경로에 로그 파일이 존재하지 않는다면 /etc/syslog.conf 또는 /etc/rsyslog.conf 파일에 authpriv.*.... 필드를 확인 후 다음 내용이 없다면 필드로 추가
+   authpriv.info = /var/log/sulog
